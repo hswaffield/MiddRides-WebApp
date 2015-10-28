@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="import" href="head_import.html">
+    <!--This is stuff that is common to all (e.g. bootsrap, fonts) files I stored it in another file-->
+      
+    <!--This stuff is not the same for every page...-->
+    <meta name="description" content="announcement form and submission">
+    <meta name="author" content="Henry Swaffield">
+    <!-- <link rel="icon" href="../../favicon.ico"> -->
+      
+    <title>Dispatcher Announcements</title>
+    <!--This is the favicon-->
+    <link rel="icon" href="midd_favicon.ico">
+
+  </head>
+
+  <body> 
+      
+    <div class="container location_table">
+        <h2 class="form-signin-heading blue-text">MiddRides Announcements</h2>
+        <form class="form-group">
+            <label for="comment">Make An Announcement:</label>
+            <textarea class="form-control comment-box" rows="5" id="comment"></textarea>
+            <button class="btn btn-lg btn-primary btn-block" id="announcement-button" type="submit">Make Announcement</button>
+        </form>
+    </div>
+      
+      
+    <!--This is stuff imported in bottom, such as javascripts-->
+    <link rel="import" href="footer_import.html">
+  </body>
+</html>
